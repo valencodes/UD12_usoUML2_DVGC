@@ -1,0 +1,21 @@
+@startuml
+json CasoDeUso {
+   "Caso de Uso":"Reservar Libro",
+   "Actores":"Socio",
+   "Resumen":"El socio puede solicitar la reserva de un libro para su posterior\\n
+   préstamo, a partir de una fecha determinada",
+   "Precondiciones":"El socio no tiene ninguna reserva",
+   "Postcondiciones":"El socio tiene un reserva y el libro tiene una nueva reserva a partir de\\n
+    una fecha",
+   "Incluye":"- -",
+   "Extiende":"- -",
+   "Hereda de":"- -",
+   "Flujo de eventos":"",
+   "Actor":"Sistema",
+   "1 El socio socilicita la reserva (codigo libro, fecha)\\n\\n\\n\\n
+   5. El socio confirma la reserva":"2. El sistema comprueba que el socio no tiene reserva\\n
+   3. El sistema comrpueba que libro está libre para la fecha solicitada\\n
+   4. El sistema solicita confirmación de la reserva\\n\\n
+   6. El sistema realiza la reserva"
+}
+@enduml
