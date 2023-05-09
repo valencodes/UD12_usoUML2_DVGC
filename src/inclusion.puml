@@ -1,0 +1,4 @@
+@startuml
+:Bibliotecario:->(Baja Socio)
+(Baja Socio)-.>(Busca Socio):<<include>>
+@enduml
